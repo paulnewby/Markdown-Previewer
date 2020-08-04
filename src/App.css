@@ -1,24 +1,27 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 
 html,
 body {
   min-width: 290px;
-  color: #4D4E53;
-  background-image: linear-gradient(315deg, #b3cdd1 0%, #9fa4c4 74%);
+  background-color: #dbe9d8;  
   line-height: 1.5;
-  font-family: 'Source Code Pro', monospace;
+  font-family: 'Josefin Sans', sans-serif;
   font-size: large;
 
 
 }
 
 h1 {
-  font-size: xx-large;
+  font-size: 55px;
+}
+
+h2 {
+  font-size: 35px;;
 }
 
 .text-center {
-  color: white;
+  color: #8C889B;
   font-weight: bold;
   margin: 10px;
   text-align: center;
@@ -26,12 +29,9 @@ h1 {
 }
 
 .preview {
-background-image: linear-gradient(315deg, #e7eff9 0%, #cfd6e6 74%);
-border: 10px solid rgb(230, 230, 236);
-border-radius: 25px;
--webkit-box-shadow: 74px 68px 232px 39px rgba(232,142,203,1);
--moz-box-shadow: 74px 68px 232px 39px rgba(232,142,203,1);
-box-shadow: 74px 68px 232px 39px rgba(232,142,203,1);
+  background-color:#f2efe8;
+  border: 15px solid #c2d4d8;
+border-radius: 3px;
 }
 
 .container {
@@ -39,18 +39,13 @@ box-shadow: 74px 68px 232px 39px rgba(232,142,203,1);
 }
 
 textarea {
-  background-image: linear-gradient(315deg, #e7eff9 0%, #cfd6e6 74%);
+  background-color:#f2efe8;
   min-height: 400px;
   max-width: 100%;
   min-width: 100%;
-  border: 10px solid rgb(230, 230, 236);
-border-radius: 25px;
--webkit-box-shadow: 10px -155px 300px 134px rgba(224,56,174,0.29);
--moz-box-shadow: 10px -155px 300px 134px rgba(224,56,174,0.29);
-box-shadow: 10px -155px 300px 134px rgba(224,56,174,0.29);
-
+border-radius: 3px;
+border: 15px solid #c2d4d8;
 }
-
 
 .preview {
   min-height: 200px;
